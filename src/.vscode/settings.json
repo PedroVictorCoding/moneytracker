@@ -1,0 +1,7 @@
+{
+    "deepcode.review.results.hideInformationIssues": true,
+    "git.ignoreLimitWarning": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "/home/pedro/Dev/moneytracker/venv/bin/python"
+}

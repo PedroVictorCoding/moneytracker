@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <script rel="script" href="{% static 'js/bootstrap.js' %}"></script>
+    <script rel="script" href="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script rel="script" href="{% static 'js/bootstrap.bundle.js' %}"></script>
+    <link rel="favicon" href="{% static 'favicon.ico' %}">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|PT+Sans&display=swap" rel="stylesheet">
+    <script rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+
+    {% block title %}
+      replace me
+    {% endblock title %}
+  </head>
+
+  <style media="screen">
+    body{
+      font-family: 'PT Sans', sans-serif;
+    }
+    
+  </style>
+  {% block content %}
+   replace me
+  {% endblock content %}
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="{% static 'js/bootstrap.bundle.min.js' %}"></script></body>
+</html>

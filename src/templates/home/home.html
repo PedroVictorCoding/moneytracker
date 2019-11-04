@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Money Tracker Is a Tool To Control How Much Money You Need For Things</title>
+{% endblock title %}
+
+{% block content %}
+<body class="container">
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand">Money Tracker</a>
+        <a class="btn btn-outline-success my-2 my-sm-0" href="{% url 'profile' %}">Search</a>
+    </nav>
+</body>
+{% endblock content %}
